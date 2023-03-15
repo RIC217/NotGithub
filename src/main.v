@@ -26,3 +26,13 @@ pub fn (mut app App) before_request() {
 pub fn (mut app App) index() vweb.Result {
 	return $vweb.html()
 }
+
+["/login"]
+pub fn (mut app App) page_login() vweb.Result {
+	return $vweb.html()
+}
+
+["/register"]
+pub fn (mut app App) page_register() vweb.Result {
+	return $vweb.html()
+}

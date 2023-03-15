@@ -5,6 +5,8 @@ body {
     background: black;
     color: white;
     margin: 0;
+    width: 100vw;
+    height: 300vh;
 }
 header {
     background: #24292e;
